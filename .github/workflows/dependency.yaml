@@ -3,7 +3,7 @@ name: Workflow with multiple stages that go in order
 on: push
 
 jobs:
-  job-on-buntu:
+  job-on-ubuntu:
     runs-on: ubuntu-latest
     steps:
       - name: get the date
